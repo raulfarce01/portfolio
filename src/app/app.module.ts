@@ -8,10 +8,10 @@ import { BoardComponent } from './pages/board/board.component';
 import { GalorComponent } from './pages/projects/galor/galor.component';
 import { FallonComponent } from './pages/projects/fallon/fallon.component';
 import { AboutComponent } from './pages/about/about.component';
-import { MainComponent } from './pages/main/main.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -21,10 +21,10 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
     GalorComponent,
     FallonComponent,
     AboutComponent,
-    MainComponent,
     HeaderComponent,
     FooterComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
